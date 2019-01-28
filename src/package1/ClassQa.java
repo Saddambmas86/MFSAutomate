@@ -19,6 +19,11 @@ public class ClassQa extends ExtentReportQA{
 public void show(){
 	System.out.println("QA Test");
 }
+
+@Test	
+public void show2(){
+	System.out.println("QA Test");
+}
 	
 @Test
 public void Initiate(){
