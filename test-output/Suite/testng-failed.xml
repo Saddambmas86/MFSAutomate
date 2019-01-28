@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="7" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="7" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="package1.MFSAutomate">
+        <methods>
+          <include name="Direct2"/>
+          <include name="Other1"/>
+          <include name="Other2"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="Colleague2"/>
+          <include name="Colleague1"/>
+          <include name="Direct1"/>
+          <include name="result"/>
+          <include name="Manager"/>
+        </methods>
+      </class> <!-- package1.MFSAutomate -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
